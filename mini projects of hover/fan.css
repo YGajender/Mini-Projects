@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    /* margin: 50px; */
+}
+
+.wings1{
+    height: 200px;
+    width: 50px;
+    background-color: brown;
+    position: absolute;
+    top: -200px;
+    left: 14px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+}
+.wings2 {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    background-color:brown;
+    top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+    left: 77px;
+}
+.wings3{
+    height: 200px;
+    width: 50px;
+    background-color: brown;
+    position: absolute;
+    left: 15px;
+    top: 73px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+}
+.wings4{
+    height: 50px;
+    width: 200px;
+    background-color:brown;
+    position: absolute;
+    left: -200px;
+    top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+}
+.main{
+    height: 80px;
+    width: 80px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    position: relative;
+    background-color:brown;
+    top: 185px;
+    left: 385px;
+    box-shadow: 5px 5px 10px red;
+    z-index: 2;
+    transition: 1000s linear;
+}
+.main:hover{
+    
+    transform: rotate(360000deg);
+}

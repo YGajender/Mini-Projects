@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 150px; 
+    position: relative;
+    transition: 1s ease-in;
+}
+.circle:hover{
+    
+    transform: rotate(180deg);
+}
+.box1 {
+    background-color: orange;
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    top: 116px;
+    left: 284px;
+}
+.box2 {
+    left: 117px;
+}
+.box3 {
+    position: absolute;
+    background-color: tomato;
+    height: 96px;
+    width: 227px;
+    top: 311px;
+    left: 132px;
+    border-radius: 50%;
+}
